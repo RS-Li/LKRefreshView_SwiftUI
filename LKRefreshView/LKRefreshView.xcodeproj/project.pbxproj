@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9471717E2B3D6BE200A90ACC /* NewsListPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471717D2B3D6BE200A90ACC /* NewsListPageView.swift */; };
+		947171812B3D6E0F00A90ACC /* LKNavBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947171802B3D6E0F00A90ACC /* LKNavBarModifier.swift */; };
+		947171832B3D6EDF00A90ACC /* LKColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947171822B3D6EDF00A90ACC /* LKColors.swift */; };
+		94BF9FFF2B390FBF002E50FD /* LKRefreshViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF9FFE2B390FBF002E50FD /* LKRefreshViewApp.swift */; };
+		94BFA0012B390FBF002E50FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA0002B390FBF002E50FD /* ContentView.swift */; };
+		94BFA0032B390FC1002E50FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BFA0022B390FC1002E50FD /* Assets.xcassets */; };
+		94BFA0062B390FC1002E50FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BFA0052B390FC1002E50FD /* Preview Assets.xcassets */; };
+		94BFA0102B390FC2002E50FD /* LKRefreshViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA00F2B390FC2002E50FD /* LKRefreshViewTests.swift */; };
+		94BFA01A2B390FC2002E50FD /* LKRefreshViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA0192B390FC2002E50FD /* LKRefreshViewUITests.swift */; };
+		94BFA01C2B390FC2002E50FD /* LKRefreshViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA01B2B390FC2002E50FD /* LKRefreshViewUITestsLaunchTests.swift */; };
+		94BFA0302B391029002E50FD /* LKMovingPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA0292B391029002E50FD /* LKMovingPositionView.swift */; };
+		94BFA0312B391029002E50FD /* LKFixedPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA02A2B391029002E50FD /* LKFixedPositionView.swift */; };
+		94BFA0322B391029002E50FD /* LKRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA02B2B391029002E50FD /* LKRefreshHeader.swift */; };
+		94BFA0332B391029002E50FD /* LKChildSizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA02C2B391029002E50FD /* LKChildSizeReader.swift */; };
+		94BFA0342B391029002E50FD /* LKRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA02D2B391029002E50FD /* LKRefreshView.swift */; };
+		94BFA0352B391029002E50FD /* LKRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA02E2B391029002E50FD /* LKRefresh.swift */; };
+		94BFA0362B391029002E50FD /* LKRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA02F2B391029002E50FD /* LKRefreshFooter.swift */; };
+		94BFA03A2B391055002E50FD /* SwiftUIGIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA0382B391055002E50FD /* SwiftUIGIFPlayerView.swift */; };
+		94BFA03B2B391055002E50FD /* GIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA0392B391055002E50FD /* GIFPlayerView.swift */; };
+		94BFA03E2B3910D7002E50FD /* lk_header_refresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = 94BFA03D2B3910D7002E50FD /* lk_header_refresh.gif */; };
+		94BFA0402B3910ED002E50FD /* lk_header_refresh_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 94BFA03F2B3910ED002E50FD /* lk_header_refresh_3.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94BFA00C2B390FC2002E50FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94BF9FF32B390FBF002E50FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94BF9FFA2B390FBF002E50FD;
+			remoteInfo = LKRefreshView;
+		};
+		94BFA0162B390FC2002E50FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94BF9FF32B390FBF002E50FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94BF9FFA2B390FBF002E50FD;
+			remoteInfo = LKRefreshView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9471717D2B3D6BE200A90ACC /* NewsListPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListPageView.swift; sourceTree = "<group>"; };
+		947171802B3D6E0F00A90ACC /* LKNavBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKNavBarModifier.swift; sourceTree = "<group>"; };
+		947171822B3D6EDF00A90ACC /* LKColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKColors.swift; sourceTree = "<group>"; };
+		947D12132B3C1BA500A32E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		94BF9FFB2B390FBF002E50FD /* LKRefreshView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKRefreshView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BF9FFE2B390FBF002E50FD /* LKRefreshViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKRefreshViewApp.swift; sourceTree = "<group>"; };
+		94BFA0002B390FBF002E50FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94BFA0022B390FC1002E50FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94BFA0052B390FC1002E50FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94BFA00B2B390FC2002E50FD /* LKRefreshViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKRefreshViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BFA00F2B390FC2002E50FD /* LKRefreshViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKRefreshViewTests.swift; sourceTree = "<group>"; };
+		94BFA0152B390FC2002E50FD /* LKRefreshViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKRefreshViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BFA0192B390FC2002E50FD /* LKRefreshViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKRefreshViewUITests.swift; sourceTree = "<group>"; };
+		94BFA01B2B390FC2002E50FD /* LKRefreshViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKRefreshViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94BFA0292B391029002E50FD /* LKMovingPositionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKMovingPositionView.swift; sourceTree = "<group>"; };
+		94BFA02A2B391029002E50FD /* LKFixedPositionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKFixedPositionView.swift; sourceTree = "<group>"; };
+		94BFA02B2B391029002E50FD /* LKRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKRefreshHeader.swift; sourceTree = "<group>"; };
+		94BFA02C2B391029002E50FD /* LKChildSizeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKChildSizeReader.swift; sourceTree = "<group>"; };
+		94BFA02D2B391029002E50FD /* LKRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKRefreshView.swift; sourceTree = "<group>"; };
+		94BFA02E2B391029002E50FD /* LKRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKRefresh.swift; sourceTree = "<group>"; };
+		94BFA02F2B391029002E50FD /* LKRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKRefreshFooter.swift; sourceTree = "<group>"; };
+		94BFA0382B391055002E50FD /* SwiftUIGIFPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIGIFPlayerView.swift; sourceTree = "<group>"; };
+		94BFA0392B391055002E50FD /* GIFPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFPlayerView.swift; sourceTree = "<group>"; };
+		94BFA03D2B3910D7002E50FD /* lk_header_refresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lk_header_refresh.gif; sourceTree = "<group>"; };
+		94BFA03F2B3910ED002E50FD /* lk_header_refresh_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lk_header_refresh_3.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94BF9FF82B390FBF002E50FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BFA0082B390FC2002E50FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BFA0122B390FC2002E50FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9471717F2B3D6DF900A90ACC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				947171802B3D6E0F00A90ACC /* LKNavBarModifier.swift */,
+				947171822B3D6EDF00A90ACC /* LKColors.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		94BF9FF22B390FBF002E50FD = {
+			isa = PBXGroup;
+			children = (
+				94BF9FFD2B390FBF002E50FD /* LKRefreshView */,
+				94BFA00E2B390FC2002E50FD /* LKRefreshViewTests */,
+				94BFA0182B390FC2002E50FD /* LKRefreshViewUITests */,
+				94BF9FFC2B390FBF002E50FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94BF9FFC2B390FBF002E50FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94BF9FFB2B390FBF002E50FD /* LKRefreshView.app */,
+				94BFA00B2B390FC2002E50FD /* LKRefreshViewTests.xctest */,
+				94BFA0152B390FC2002E50FD /* LKRefreshViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94BF9FFD2B390FBF002E50FD /* LKRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				947D12132B3C1BA500A32E14 /* Info.plist */,
+				94BFA0282B391029002E50FD /* LKRefresh */,
+				94BF9FFE2B390FBF002E50FD /* LKRefreshViewApp.swift */,
+				94BFA0002B390FBF002E50FD /* ContentView.swift */,
+				9471717D2B3D6BE200A90ACC /* NewsListPageView.swift */,
+				9471717F2B3D6DF900A90ACC /* Common */,
+				94BFA0022B390FC1002E50FD /* Assets.xcassets */,
+				94BFA0042B390FC1002E50FD /* Preview Content */,
+			);
+			path = LKRefreshView;
+			sourceTree = "<group>";
+		};
+		94BFA0042B390FC1002E50FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94BFA0052B390FC1002E50FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94BFA00E2B390FC2002E50FD /* LKRefreshViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				94BFA00F2B390FC2002E50FD /* LKRefreshViewTests.swift */,
+			);
+			path = LKRefreshViewTests;
+			sourceTree = "<group>";
+		};
+		94BFA0182B390FC2002E50FD /* LKRefreshViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94BFA0192B390FC2002E50FD /* LKRefreshViewUITests.swift */,
+				94BFA01B2B390FC2002E50FD /* LKRefreshViewUITestsLaunchTests.swift */,
+			);
+			path = LKRefreshViewUITests;
+			sourceTree = "<group>";
+		};
+		94BFA0282B391029002E50FD /* LKRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				94BFA03C2B39108C002E50FD /* LKResource */,
+				94BFA0372B391055002E50FD /* SwiftUIGIFView */,
+				94BFA02D2B391029002E50FD /* LKRefreshView.swift */,
+				94BFA0292B391029002E50FD /* LKMovingPositionView.swift */,
+				94BFA02A2B391029002E50FD /* LKFixedPositionView.swift */,
+				94BFA02B2B391029002E50FD /* LKRefreshHeader.swift */,
+				94BFA02C2B391029002E50FD /* LKChildSizeReader.swift */,
+				94BFA02E2B391029002E50FD /* LKRefresh.swift */,
+				94BFA02F2B391029002E50FD /* LKRefreshFooter.swift */,
+			);
+			path = LKRefresh;
+			sourceTree = "<group>";
+		};
+		94BFA0372B391055002E50FD /* SwiftUIGIFView */ = {
+			isa = PBXGroup;
+			children = (
+				94BFA0382B391055002E50FD /* SwiftUIGIFPlayerView.swift */,
+				94BFA0392B391055002E50FD /* GIFPlayerView.swift */,
+			);
+			path = SwiftUIGIFView;
+			sourceTree = "<group>";
+		};
+		94BFA03C2B39108C002E50FD /* LKResource */ = {
+			isa = PBXGroup;
+			children = (
+				94BFA03F2B3910ED002E50FD /* lk_header_refresh_3.gif */,
+				94BFA03D2B3910D7002E50FD /* lk_header_refresh.gif */,
+			);
+			path = LKResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94BF9FFA2B390FBF002E50FD /* LKRefreshView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BFA01F2B390FC2002E50FD /* Build configuration list for PBXNativeTarget "LKRefreshView" */;
+			buildPhases = (
+				94BF9FF72B390FBF002E50FD /* Sources */,
+				94BF9FF82B390FBF002E50FD /* Frameworks */,
+				94BF9FF92B390FBF002E50FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKRefreshView;
+			productName = LKRefreshView;
+			productReference = 94BF9FFB2B390FBF002E50FD /* LKRefreshView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94BFA00A2B390FC2002E50FD /* LKRefreshViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BFA0222B390FC2002E50FD /* Build configuration list for PBXNativeTarget "LKRefreshViewTests" */;
+			buildPhases = (
+				94BFA0072B390FC2002E50FD /* Sources */,
+				94BFA0082B390FC2002E50FD /* Frameworks */,
+				94BFA0092B390FC2002E50FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94BFA00D2B390FC2002E50FD /* PBXTargetDependency */,
+			);
+			name = LKRefreshViewTests;
+			productName = LKRefreshViewTests;
+			productReference = 94BFA00B2B390FC2002E50FD /* LKRefreshViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94BFA0142B390FC2002E50FD /* LKRefreshViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BFA0252B390FC2002E50FD /* Build configuration list for PBXNativeTarget "LKRefreshViewUITests" */;
+			buildPhases = (
+				94BFA0112B390FC2002E50FD /* Sources */,
+				94BFA0122B390FC2002E50FD /* Frameworks */,
+				94BFA0132B390FC2002E50FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94BFA0172B390FC2002E50FD /* PBXTargetDependency */,
+			);
+			name = LKRefreshViewUITests;
+			productName = LKRefreshViewUITests;
+			productReference = 94BFA0152B390FC2002E50FD /* LKRefreshViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94BF9FF32B390FBF002E50FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					94BF9FFA2B390FBF002E50FD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					94BFA00A2B390FC2002E50FD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 94BF9FFA2B390FBF002E50FD;
+					};
+					94BFA0142B390FC2002E50FD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 94BF9FFA2B390FBF002E50FD;
+					};
+				};
+			};
+			buildConfigurationList = 94BF9FF62B390FBF002E50FD /* Build configuration list for PBXProject "LKRefreshView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94BF9FF22B390FBF002E50FD;
+			productRefGroup = 94BF9FFC2B390FBF002E50FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94BF9FFA2B390FBF002E50FD /* LKRefreshView */,
+				94BFA00A2B390FC2002E50FD /* LKRefreshViewTests */,
+				94BFA0142B390FC2002E50FD /* LKRefreshViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94BF9FF92B390FBF002E50FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BFA0062B390FC1002E50FD /* Preview Assets.xcassets in Resources */,
+				94BFA0032B390FC1002E50FD /* Assets.xcassets in Resources */,
+				94BFA0402B3910ED002E50FD /* lk_header_refresh_3.gif in Resources */,
+				94BFA03E2B3910D7002E50FD /* lk_header_refresh.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BFA0092B390FC2002E50FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BFA0132B390FC2002E50FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94BF9FF72B390FBF002E50FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BFA0352B391029002E50FD /* LKRefresh.swift in Sources */,
+				94BFA0362B391029002E50FD /* LKRefreshFooter.swift in Sources */,
+				947171832B3D6EDF00A90ACC /* LKColors.swift in Sources */,
+				94BFA0322B391029002E50FD /* LKRefreshHeader.swift in Sources */,
+				94BFA03B2B391055002E50FD /* GIFPlayerView.swift in Sources */,
+				94BFA0332B391029002E50FD /* LKChildSizeReader.swift in Sources */,
+				94BFA0342B391029002E50FD /* LKRefreshView.swift in Sources */,
+				94BFA0012B390FBF002E50FD /* ContentView.swift in Sources */,
+				94BF9FFF2B390FBF002E50FD /* LKRefreshViewApp.swift in Sources */,
+				94BFA0302B391029002E50FD /* LKMovingPositionView.swift in Sources */,
+				94BFA03A2B391055002E50FD /* SwiftUIGIFPlayerView.swift in Sources */,
+				947171812B3D6E0F00A90ACC /* LKNavBarModifier.swift in Sources */,
+				9471717E2B3D6BE200A90ACC /* NewsListPageView.swift in Sources */,
+				94BFA0312B391029002E50FD /* LKFixedPositionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BFA0072B390FC2002E50FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BFA0102B390FC2002E50FD /* LKRefreshViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BFA0112B390FC2002E50FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BFA01C2B390FC2002E50FD /* LKRefreshViewUITestsLaunchTests.swift in Sources */,
+				94BFA01A2B390FC2002E50FD /* LKRefreshViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94BFA00D2B390FC2002E50FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94BF9FFA2B390FBF002E50FD /* LKRefreshView */;
+			targetProxy = 94BFA00C2B390FC2002E50FD /* PBXContainerItemProxy */;
+		};
+		94BFA0172B390FC2002E50FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94BF9FFA2B390FBF002E50FD /* LKRefreshView */;
+			targetProxy = 94BFA0162B390FC2002E50FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94BFA01D2B390FC2002E50FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94BFA01E2B390FC2002E50FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94BFA0202B390FC2002E50FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LKRefreshView/Preview Content\"";
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LKRefreshView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.lkRefresh.LKRefreshView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94BFA0212B390FC2002E50FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LKRefreshView/Preview Content\"";
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LKRefreshView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.lkRefresh.LKRefreshView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94BFA0232B390FC2002E50FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.lkRefresh.LKRefreshViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKRefreshView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LKRefreshView";
+			};
+			name = Debug;
+		};
+		94BFA0242B390FC2002E50FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.lkRefresh.LKRefreshViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKRefreshView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LKRefreshView";
+			};
+			name = Release;
+		};
+		94BFA0262B390FC2002E50FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.lkRefresh.LKRefreshViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKRefreshView;
+			};
+			name = Debug;
+		};
+		94BFA0272B390FC2002E50FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.lkRefresh.LKRefreshViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKRefreshView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94BF9FF62B390FBF002E50FD /* Build configuration list for PBXProject "LKRefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BFA01D2B390FC2002E50FD /* Debug */,
+				94BFA01E2B390FC2002E50FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BFA01F2B390FC2002E50FD /* Build configuration list for PBXNativeTarget "LKRefreshView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BFA0202B390FC2002E50FD /* Debug */,
+				94BFA0212B390FC2002E50FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BFA0222B390FC2002E50FD /* Build configuration list for PBXNativeTarget "LKRefreshViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BFA0232B390FC2002E50FD /* Debug */,
+				94BFA0242B390FC2002E50FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BFA0252B390FC2002E50FD /* Build configuration list for PBXNativeTarget "LKRefreshViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BFA0262B390FC2002E50FD /* Debug */,
+				94BFA0272B390FC2002E50FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94BF9FF32B390FBF002E50FD /* Project object */;
+}
