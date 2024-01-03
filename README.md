@@ -321,12 +321,9 @@ var threshold: CGFloat = 120 //触发的临界高度
 ```
 
 
-
-
-
 #### 参考来源
 
 1.  参考来源：[swiftui-pull-to-refresh](https://github.com/globulus/swiftui-pull-to-refresh)
-2.  解读参考：[输入链接说明](https://zhuanlan.zhihu.com/p/162051409)
+2.  解读参考：[原理解读](https://zhuanlan.zhihu.com/p/162051409)
 
 
