@@ -28,7 +28,7 @@ struct LKChildSizeReader<Content: View>: View {
         
     }
 }
-
+//计算内容size
 private struct LKSizePreferenceKey: PreferenceKey {
   typealias Value = CGSize
   static var defaultValue: Value = .zero
@@ -36,7 +36,7 @@ private struct LKSizePreferenceKey: PreferenceKey {
     _ = nextValue()
   }
 }
-
+//计算滑动偏移量
 struct LKScrollOffsetPreferenceKey: PreferenceKey {
   static var defaultValue = CGFloat.zero
   static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {

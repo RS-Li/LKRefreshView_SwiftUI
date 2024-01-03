@@ -33,9 +33,9 @@ struct LKRefreshView<Content: View>: View {
     ///是否隐藏尾部刷新控件 默认false 不隐藏
     var footerHidden: Bool
     
-    ///配置 头部刷新控件
+    ///配置 头部刷新控件样式配置
     var headerConfig:LKRefresh.HeaderConfig
-    ///配置 尾部刷新控件
+    ///配置 尾部刷新控件样式配置
     var footerConfig:LKRefresh.FooterConfig
     
     // 下拉刷新出发回调
@@ -92,7 +92,7 @@ struct LKRefreshView<Content: View>: View {
                                             }
                                         })
                                 }
-                            }.onAppear{
+                            }.onAppear {
                                 DispatchQueue.main.asyncAfter(deadline: .now()) {
                                     withAnimation {
                                         print("scrollViewContentSize: \(listContentSize)")
@@ -108,7 +108,6 @@ struct LKRefreshView<Content: View>: View {
                                             updateTime: self.updateTime,
                                             config: headerConfig,
                                             hidden: self.headerHidden)
-                            
                             
                         }
                         
@@ -137,28 +136,28 @@ struct LKRefreshView<Content: View>: View {
                     }
                     
                 }.coordinateSpace(name:listViewSpace)// 标识ScrollView的空间坐标，标明是基于ScrollView坐标的偏移量
-                    .background(
+                 .background(
                         LKFixedPositionView()
                     )
-                    .onPreferenceChange(LKRefreshPreferenceType.LKRefreshPreferenceKey.self) { values in
+                 .onPreferenceChange(LKRefreshPreferenceType.LKRefreshPreferenceKey.self) { values in
                         if headerHidden == false || footerHidden == false {
                             self.calculate(values)
                         }
                     }
-                    .onChange(of: headerRefreshing) { refreshing in
+                 .onChange(of: headerRefreshing) { refreshing in
                         DispatchQueue.main.async {
                             if !refreshing {
                                 self.updateTime = Date()
                             }
                         }
                     }
-                    .onAppear {//计算list的自身尺寸
-                        DispatchQueue.main.asyncAfter(deadline: .now()) {
-                            withAnimation {
-                                self.listSizeH = proxy.size.height
-                            }
-                        }
-                    }
+                 .onAppear {//计算list的自身尺寸
+                     DispatchQueue.main.asyncAfter(deadline: .now()) {
+                         withAnimation {
+                             self.listSizeH = proxy.size.height
+                         }
+                     }
+                 }
             }
         }
     }
